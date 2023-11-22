@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+nav
+{ position: fixed;
+  width: 100%;
+  padding: 0px 0;
+  background-color: rgba(247,171,197,1.00);
+  box-shadow: 0 5px 10px;
+  border: none;
+  z-index: 99999998
+ 
+}
+section
+{
+	min-height: 800px;
+	padding: 100px 0
+}
+footer
+{
+	padding: 50px 0;
+    background-color: rgba(247,171,197,1.00)
+}
+nav .menu a
+{
+	text-decoration: none; color: #000000; font-weight: 800;
+	padding:10px 30px;
+	font-size: 20px
+}
+nav .menu a:hover
+{
+	border-bottom: 2px bold rgba(247,171,197,1.00)
+}
+.btn-primary
+{
+	background-color: #000000;
+	padding: 5px 5px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #F84D8F;
+	font-size: 20px;
+}
+
+
+
+
+
